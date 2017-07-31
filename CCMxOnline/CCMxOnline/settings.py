@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'users',
-    'courses'
+    'courses',
+    'organization'
 ]
 # 重载setting方法
 AUTH_USER_MODEL = 'users.UserProfile'
